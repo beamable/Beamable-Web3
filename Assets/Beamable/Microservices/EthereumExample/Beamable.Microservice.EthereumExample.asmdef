@@ -1,0 +1,42 @@
+{
+    "name": "Beamable.Microservice.EthereumExample",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Beamable.Runtime.Common",
+        "Unity.Beamable.Server.Runtime",
+        "Unity.Beamable.Server.Runtime.Shared",
+        "Unity.Beamable",
+        "Beamable.SmallerJSON",
+        "Unity.Beamable.Server.Runtime.Common",
+        "Unity.Beamable.Server.Runtime.Mocks",
+        "Unity.Beamable.Customer.Common"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "BouncyCastle.Crypto.dll",
+        "Common.Logging.Core.dll",
+        "Nethereum.ABI.dll",
+        "Nethereum.Accounts.dll",
+        "Nethereum.Contracts.dll",
+        "Nethereum.Hex.dll",
+        "Nethereum.JsonRpc.Client.dll",
+        "Nethereum.JsonRpc.RpcClient.dll",
+        "Nethereum.KeyStore.dll",
+        "Nethereum.Model.dll",
+        "Nethereum.RLP.dll",
+        "Nethereum.RPC.dll",
+        "Nethereum.Signer.dll",
+        "Nethereum.Signer.EIP712.dll",
+        "Nethereum.Siwe.Core.dll",
+        "Nethereum.Util.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
