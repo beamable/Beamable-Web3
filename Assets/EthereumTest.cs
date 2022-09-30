@@ -1,15 +1,8 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
-using Nethereum.Web3;
 using Nethereum.Util;
-using System.Collections.Generic;
-using System.Text;
 using Beamable.Server.Clients;
 using Nethereum.Signer;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.ABI.Encoders;
 using Nethereum.JsonRpc.UnityClient;
 using Nethereum.RPC.Eth.DTOs;
 
@@ -18,7 +11,6 @@ public class EthereumTest : MonoBehaviour
     public string address;
     public string privateKey;
     
-    // Start is called before the first frame update
     async void Start()
     {
         var msg1 = "wee test message 18/09/2017 02:55PM";

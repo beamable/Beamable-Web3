@@ -1,12 +1,7 @@
 using Beamable.Server;
-using Nethereum.Util;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using Beamable.Common.Api.Stats;
 using Nethereum.Signer;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.ABI.Encoders;
 
 namespace Beamable.Microservices
 {
