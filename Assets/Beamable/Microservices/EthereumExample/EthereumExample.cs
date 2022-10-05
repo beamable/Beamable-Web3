@@ -9,7 +9,7 @@ namespace Beamable.Microservices
 	public class EthereumExample : Microservice
 	{
 		/// <summary>
-		/// It's used to get a wallet address linked to the given private key.
+		/// This method is resolving a wallet address from a message signed with a private key.
 		/// </summary>
 		/// <param name="msg">A message you want to send</param>
 		/// <param name="signature">A signature made using the private key through <see cref="EthereumMessageSigner"/></param>
